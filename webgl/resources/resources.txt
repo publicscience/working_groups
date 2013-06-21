@@ -1,0 +1,40 @@
+Places to learn WebGL:
+
+http://pixelshaders.com/external.html 
+
+####
+
+Places to learn Three.js:
+
+http://learningthreejs.com/
+
+http://threejs.org/
+
+####
+
+Shaders in the browser:
+
+http://pixelshaders.com/
+
+####
+
+WebGL and Web Audio API:
+
+
+http://chromium.googlecode.com/svn/trunk/samples/audio/visualizer-gl.html 
+
+http://chromium.googlecode.com/svn/trunk/samples/audio/index.html 
+
+http://www.creativeapplications.net/javascript-2/web-audio-javascript-sound/
+
+####
+
+Unorganized:
+
+http://www.airtightinteractive.com/2011/06/rutt-etra-izer/  (personal favorite)
+
+http://acko.net/blog/how-to-fold-a-julia-fractal/?second 
+
+http://www.zephyrosanemos.com/ 
+
+
