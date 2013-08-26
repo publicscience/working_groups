@@ -10,8 +10,8 @@ of research, with subdirectories that include
 material on the given subject. 
 
 Our current working groups include:
-WebGL
-SuperCollider
+WebGL, SuperCollider
+
 
 Ideas for future working groups should be added to this readme!
 
