@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Earth to WebGL</title>
+		<!-- order of import is important! -->
+		<script src="../WebGLBook/libs/Three.js"></script>
+	        <script src="../WebGLBook/libs/RequestAnimationFrame.js"></script>
+	        <script src="../WebGLBook/libs/jquery-1.6.4.js"></script>
+	        <script src="../WebGLBook/libs/jquery.mousewheel.js"></script>
+		<script src="../WebGLBook/sim/sim.js"></script>
+	        <script src="jednayef_scroll.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script>
+
+			var renderer = null;
+			var scene = null;
+			var camera = null;
+			var mesh = null;
+
+			$(document).ready(
+				function(){
+					var container = document.getElementById("globe");
+					var app = new EarthApp();
+					app.init({ container: container });
+					app.run();
+				}
+			);
+		</script>
+	</head>
+	<body style="margin: 0px">
+	<div id="container">
+		<div id="globe" style="width: 500px; height:500px; display: inline-block;" > </div>	
+		<div id="logo" style="text-align: left; position: absolute; bottom: 0"  ><img width="400px" id="image" src="http://no-re.co/jedglow.png"></div>
+	</div>
+	</body>
+	<script>
+var scrollSpeed = 50;
+    
+    // set the default position
+    var current = 0;
+
+    // set the direction
+    var direction = 'i';
+
+    function bgscroll(){
+
+        // 1 pixel row at a time
+        current -= 1;
+   
+        // move the background with backgrond-position css properties
+        $('html').css("backgroundPosition", (direction == 'h') ? current+"px 0" : "0 " + current+"px");
+   
+    }
+
+
+
+    //Calls the scrolling function repeatedly
+     setInterval(bgscroll, scrollSpeed);    
+    </script>
+</html>
+
+			
